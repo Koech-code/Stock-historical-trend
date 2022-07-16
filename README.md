@@ -1,27 +1,88 @@
-# NasdaqProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
+## Patient Records Management System
+ 
+### Technologies used
+  - React
+  - Javascript
+  - HTML 5
+  - CSS 3
+  - Bootstrap
 
-## Development server
+### Description
+> This is a web application that helps health records managers take control of patient records.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+> A user can:
+- Create a patient file
+- Read a patient file
+- Update a patient file
+- Delete a patient file if no longer of use
 
-## Code scaffolding
+## Author
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+👤 **Author**
+- Nixon Kipkorir Koech
 
-## Build
+- GitHub: [@Koech-code](https://github.com/Koech-code)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Technologies Used
 
-## Running unit tests
+- React
+- Javascript
+- HTML5
+- CSS3
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### User Stories
+As a user I would like to;
 
-## Running end-to-end tests
+- Create a new patient record
+- See the created record
+- Update the created record
+- Delete the created record
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Specifications:
+These are the actions the user will do, inputs required and their outputs on the page. 
 
-## Further help
+  | Action    | Input                                      | Output                        |
+  | ----------|:-------------                              | :------                       |
+  | Load page | On page load                               | Displays the homepage         |
+  | Fill from | Fill in the name and email address of the patient | A record is created and the user can read it         |
+  | Edit record    | The user can then edit the record and save changes           | An updated patient record     |
+  | Delete record    | The user can then delete/remove the record and save changes           | An updated list of new patient records is created   |
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Live Demo
+
+[Live Demo Link]( https://patient-record-ms.netlify.app/)
+
+
+### Installation Process
+
+- Clone the repository using the link below
+
+   ```
+   $ git clone https://github.com/Koech-code/patient-records-management-system
+   ```
+   ```
+   cd into your preferred working directory
+   ```
+   ```
+   Open it in your preferred text editor
+   ```
+- Test it if its working using;
+  ```
+  npm start
+  ```
+- This will open the application on your browser , preferably `chrome` at `http://localhost:4200/`
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- I would like to acknowledge Moringa school for giving me the opportunity to learn software development.
+- Appreciations to  my TMs `Rose Aketch`, `Gideon Maroko`, `Albert Byrone`, `Nancy Umutoniwase` and all, for the support they gave me.
+
+## 📝 License
+
+This project is [MIT](LICENSE.md) licensed.
