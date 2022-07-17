@@ -1,0 +1,3 @@
+function mine(){
+alert('Hi')
+}
