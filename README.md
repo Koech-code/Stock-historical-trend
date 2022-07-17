@@ -2,20 +2,15 @@
 ## Patient Records Management System
  
 ### Technologies used
-  - React
+  - Angular
   - Javascript
   - HTML 5
   - CSS 3
   - Bootstrap
+  - Chartjs
 
 ### Description
-> This is a web application that helps health records managers take control of patient records.
-
-> A user can:
-- Create a patient file
-- Read a patient file
-- Update a patient file
-- Delete a patient file if no longer of use
+> This is a web page that allows a user to visualize the historical trend of end of day stock prices for publicly available US companies, then displays them as a line graph.
 
 ## Author
 
@@ -24,20 +19,10 @@
 
 - GitHub: [@Koech-code](https://github.com/Koech-code)
 
-## Technologies Used
-
-- React
-- Javascript
-- HTML5
-- CSS3
-
 ### User Stories
 As a user I would like to;
-
-- Create a new patient record
-- See the created record
-- Update the created record
-- Delete the created record
+- Search for a company
+- See a historical trend in form of a line graph
 
 ## Specifications:
 These are the actions the user will do, inputs required and their outputs on the page. 
@@ -45,13 +30,11 @@ These are the actions the user will do, inputs required and their outputs on the
   | Action    | Input                                      | Output                        |
   | ----------|:-------------                              | :------                       |
   | Load page | On page load                               | Displays the homepage         |
-  | Fill from | Fill in the name and email address of the patient | A record is created and the user can read it         |
-  | Edit record    | The user can then edit the record and save changes           | An updated patient record     |
-  | Delete record    | The user can then delete/remove the record and save changes           | An updated list of new patient records is created   |
+  | Search from | Type the company name | See the corresponding line graph data        |
 
 ## Live Demo
 
-[Live Demo Link]( https://patient-record-ms.netlify.app/)
+[Live Demo Link]( https://nasdaq-api.netlify.app/)
 
 
 ### Installation Process
@@ -59,7 +42,7 @@ These are the actions the user will do, inputs required and their outputs on the
 - Clone the repository using the link below
 
    ```
-   $ git clone https://github.com/Koech-code/patient-records-management-system
+   $ git clone https://github.com/Koech-code/Stock-historical-trend.git
    ```
    ```
    cd into your preferred working directory
@@ -69,7 +52,7 @@ These are the actions the user will do, inputs required and their outputs on the
    ```
 - Test it if its working using;
   ```
-  npm start
+  ng serve -o
   ```
 - This will open the application on your browser , preferably `chrome` at `http://localhost:4200/`
 
@@ -82,6 +65,7 @@ Give a ⭐️ if you like this project!
 
 - I would like to acknowledge Moringa school for giving me the opportunity to learn software development.
 - Appreciations to  my TMs `Rose Aketch`, `Gideon Maroko`, `Albert Byrone`, `Nancy Umutoniwase` and all, for the support they gave me.
+- A special honor to `Sylvia` and `8teq` team for the considartion
 
 ## 📝 License
 
