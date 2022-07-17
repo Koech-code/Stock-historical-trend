@@ -13,7 +13,7 @@ import { SearchComponent } from './components/search/search.component';
 export class AppComponent {
   chart = [];
   datas: any;
-  content = 'Angular project'
+  
   constructor (private api: NasdaqService) {}
 
     ngOnInit() {
