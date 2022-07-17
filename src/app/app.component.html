@@ -1,28 +1,23 @@
-
-<p>{{content}}</p>
-
 <div class="display-flex">
     <div class="search-flex">
         <app-search></app-search>
     </div>
     <div class="container">
         <p>Data from API</p>
-        <select name="price">
+        <select name="price" id="font">
             <option value=""></option>
             <option value="">Closing Price</option>
             <option value="">Adj.Closing Price</option>
         </select>
-
-        <canvas id="lineChart" height="400" width="400">
-            
-        </canvas>
+          
         <div *ngFor="let dta of datas">
-            <div>{{ dta.data[0][4] }}</div>
-            <div>{{ dta.data[0][12] }}</div>
-            <div>{{ dta.frequency }}</div>
+            <div>Start date {{ dta.start_date }}</div>
+            <div>End date {{ dta.end_date }}</div>
+            <div>Closing Price {{ dta.data[1][4] }}</div>
+            <div>Adj.Closing Price {{ dta.data[1][11] }}</div>
         </div>
     </div>
-    <app-chart></app-chart>
+
 </div>
  <button onclick="mine()">click</button>
  
