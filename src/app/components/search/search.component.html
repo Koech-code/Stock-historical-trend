@@ -13,18 +13,18 @@
         <div class="content" role="main">
             <div id="card">
               <div class="form-group">
-                <label for="search-text">Search Text</label>
-                <input type="email" class="form-control" id="search-text" aria-describedby="search-text"
+                <label for="search-text" id="sub-title" class="pt-2 pb-2">Nasdaq</label>
+                <input type="text" class="form-control" id="search-text" aria-describedby="search-text"
                   [(ngModel)]="searchText" placeholder="Type your search here"
                   autofocus>
               </div>
-              <ul class="list-group list-group-flush">
+              <ul class="list-group list-group-flush" id="companies">
                 <!-- results of ngFor is passed to appFilter with argument searchText -->
                 <li class="list-group-item" *ngFor="let c of characters | appFilter: searchText">
                   {{c}}
                 </li>
               </ul>
-        {{searchText}}
+      
             </div>
         </div>
     </div>

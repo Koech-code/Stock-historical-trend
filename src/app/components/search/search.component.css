@@ -14,6 +14,17 @@ body{
     flex-direction: row;
 }
 
-#card{
+#companies, li{
     background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+}
+
+#sub-title{
+    color: #51459E;
+    font-weight: bold;
+}
+
+::placeholder{
+    font-family: 'Times New Roman', Times, serif;
 }

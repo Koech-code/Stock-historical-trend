@@ -1,1 +1,29 @@
-<input type="text" placeholder="Type your search here">
+
+<p>{{content}}</p>
+
+<div class="display-flex">
+    <div class="search-flex">
+        <app-search></app-search>
+    </div>
+    <div class="container">
+        <p>Data from API</p>
+        <select name="price">
+            <option value=""></option>
+            <option value="">Closing Price</option>
+            <option value="">Adj.Closing Price</option>
+        </select>
+
+        <canvas id="lineChart" height="400" width="400">
+            
+        </canvas>
+        <div *ngFor="let dta of datas">
+            <div>{{ dta.data[0][4] }}</div>
+            <div>{{ dta.data[0][12] }}</div>
+            <div>{{ dta.frequency }}</div>
+        </div>
+    </div>
+    <app-chart></app-chart>
+</div>
+ <button onclick="mine()">click</button>
+ 
+ 

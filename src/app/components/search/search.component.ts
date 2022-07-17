@@ -8,16 +8,19 @@ import { Component, OnInit } from '@angular/core';
 export class SearchComponent  {
 
   title = 'angular-text-search-highlight';
-  searchText = '';
+  public searchText = '';
   characters = [
-    'Ant-Man',
-    'Aquaman',
-    'Asterix',
-    'The Atom',
-    'The Avengers',
-    'Batgirl',
-    'Batman',
-    'Batwoman',
+    'Walmart',
+    'Amazon',
+    'Apple',
+    'CVS Health',
+    'Alphabet',
+    'Costco',
+    'Microsoft',
+    'Intel',
+    'PepsiCo',
+    'IBM',
+    '	MetLife',
     ]
 
 }
